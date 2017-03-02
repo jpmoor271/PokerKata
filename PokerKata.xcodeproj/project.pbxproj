@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96817C761E3CE03600AF1D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817C751E3CE03600AF1D0D /* AppDelegate.swift */; };
+		96817C781E3CE03600AF1D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817C771E3CE03600AF1D0D /* ViewController.swift */; };
+		96817C7B1E3CE03600AF1D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96817C791E3CE03600AF1D0D /* Main.storyboard */; };
+		96817C7D1E3CE03600AF1D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96817C7C1E3CE03600AF1D0D /* Assets.xcassets */; };
+		96817C801E3CE03600AF1D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96817C7E1E3CE03600AF1D0D /* LaunchScreen.storyboard */; };
+		96817C8B1E3CE03600AF1D0D /* PokerKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817C8A1E3CE03600AF1D0D /* PokerKataTests.swift */; };
+		96817C961E3CE0C200AF1D0D /* HandRankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817C951E3CE0C200AF1D0D /* HandRankTests.swift */; };
+		96817C981E3CE29F00AF1D0D /* HandRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817C971E3CE29F00AF1D0D /* HandRank.swift */; };
+		96817C9A1E3D5B4F00AF1D0D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817C991E3D5B4F00AF1D0D /* Card.swift */; };
+		96817C9C1E3D5B6400AF1D0D /* CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817C9B1E3D5B6400AF1D0D /* CardTests.swift */; };
+		96817CA01E3E767E00AF1D0D /* CardRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817C9F1E3E767E00AF1D0D /* CardRank.swift */; };
+		96817CA21E3E76A500AF1D0D /* CardRankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817CA11E3E76A500AF1D0D /* CardRankTests.swift */; };
+		96817CA41E3E95FE00AF1D0D /* CardSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817CA31E3E95FE00AF1D0D /* CardSuit.swift */; };
+		96817CA61E3E972600AF1D0D /* CardSuitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817CA51E3E972600AF1D0D /* CardSuitTests.swift */; };
+		96817CA81E47E59700AF1D0D /* HandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817CA71E47E59700AF1D0D /* HandTests.swift */; };
+		96817CAA1E47E63A00AF1D0D /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96817CA91E47E63A00AF1D0D /* Hand.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96817C871E3CE03600AF1D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96817C6A1E3CE03600AF1D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96817C711E3CE03600AF1D0D;
+			remoteInfo = PokerKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96817C721E3CE03600AF1D0D /* PokerKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96817C751E3CE03600AF1D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96817C771E3CE03600AF1D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96817C7A1E3CE03600AF1D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96817C7C1E3CE03600AF1D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96817C7F1E3CE03600AF1D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96817C811E3CE03600AF1D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96817C861E3CE03600AF1D0D /* PokerKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96817C8A1E3CE03600AF1D0D /* PokerKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerKataTests.swift; sourceTree = "<group>"; };
+		96817C8C1E3CE03600AF1D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96817C951E3CE0C200AF1D0D /* HandRankTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandRankTests.swift; sourceTree = "<group>"; };
+		96817C971E3CE29F00AF1D0D /* HandRank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandRank.swift; sourceTree = "<group>"; };
+		96817C991E3D5B4F00AF1D0D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		96817C9B1E3D5B6400AF1D0D /* CardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTests.swift; sourceTree = "<group>"; };
+		96817C9F1E3E767E00AF1D0D /* CardRank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardRank.swift; sourceTree = "<group>"; };
+		96817CA11E3E76A500AF1D0D /* CardRankTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardRankTests.swift; sourceTree = "<group>"; };
+		96817CA31E3E95FE00AF1D0D /* CardSuit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSuit.swift; sourceTree = "<group>"; };
+		96817CA51E3E972600AF1D0D /* CardSuitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSuitTests.swift; sourceTree = "<group>"; };
+		96817CA71E47E59700AF1D0D /* HandTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandTests.swift; sourceTree = "<group>"; };
+		96817CA91E47E63A00AF1D0D /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96817C6F1E3CE03600AF1D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96817C831E3CE03600AF1D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96817C691E3CE03600AF1D0D = {
+			isa = PBXGroup;
+			children = (
+				96817C741E3CE03600AF1D0D /* PokerKata */,
+				96817C891E3CE03600AF1D0D /* PokerKataTests */,
+				96817C731E3CE03600AF1D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96817C731E3CE03600AF1D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96817C721E3CE03600AF1D0D /* PokerKata.app */,
+				96817C861E3CE03600AF1D0D /* PokerKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96817C741E3CE03600AF1D0D /* PokerKata */ = {
+			isa = PBXGroup;
+			children = (
+				96817C751E3CE03600AF1D0D /* AppDelegate.swift */,
+				96817C771E3CE03600AF1D0D /* ViewController.swift */,
+				96817C791E3CE03600AF1D0D /* Main.storyboard */,
+				96817C7C1E3CE03600AF1D0D /* Assets.xcassets */,
+				96817C7E1E3CE03600AF1D0D /* LaunchScreen.storyboard */,
+				96817C811E3CE03600AF1D0D /* Info.plist */,
+				96817C971E3CE29F00AF1D0D /* HandRank.swift */,
+				96817C991E3D5B4F00AF1D0D /* Card.swift */,
+				96817C9F1E3E767E00AF1D0D /* CardRank.swift */,
+				96817CA31E3E95FE00AF1D0D /* CardSuit.swift */,
+				96817CA91E47E63A00AF1D0D /* Hand.swift */,
+			);
+			path = PokerKata;
+			sourceTree = "<group>";
+		};
+		96817C891E3CE03600AF1D0D /* PokerKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				96817C8A1E3CE03600AF1D0D /* PokerKataTests.swift */,
+				96817C8C1E3CE03600AF1D0D /* Info.plist */,
+				96817C951E3CE0C200AF1D0D /* HandRankTests.swift */,
+				96817C9B1E3D5B6400AF1D0D /* CardTests.swift */,
+				96817CA11E3E76A500AF1D0D /* CardRankTests.swift */,
+				96817CA51E3E972600AF1D0D /* CardSuitTests.swift */,
+				96817CA71E47E59700AF1D0D /* HandTests.swift */,
+			);
+			path = PokerKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96817C711E3CE03600AF1D0D /* PokerKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96817C8F1E3CE03600AF1D0D /* Build configuration list for PBXNativeTarget "PokerKata" */;
+			buildPhases = (
+				96817C6E1E3CE03600AF1D0D /* Sources */,
+				96817C6F1E3CE03600AF1D0D /* Frameworks */,
+				96817C701E3CE03600AF1D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokerKata;
+			productName = PokerKata;
+			productReference = 96817C721E3CE03600AF1D0D /* PokerKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96817C851E3CE03600AF1D0D /* PokerKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96817C921E3CE03600AF1D0D /* Build configuration list for PBXNativeTarget "PokerKataTests" */;
+			buildPhases = (
+				96817C821E3CE03600AF1D0D /* Sources */,
+				96817C831E3CE03600AF1D0D /* Frameworks */,
+				96817C841E3CE03600AF1D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96817C881E3CE03600AF1D0D /* PBXTargetDependency */,
+			);
+			name = PokerKataTests;
+			productName = PokerKataTests;
+			productReference = 96817C861E3CE03600AF1D0D /* PokerKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96817C6A1E3CE03600AF1D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jason Moore";
+				TargetAttributes = {
+					96817C711E3CE03600AF1D0D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LNFYLXQTCT;
+						ProvisioningStyle = Automatic;
+					};
+					96817C851E3CE03600AF1D0D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LNFYLXQTCT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96817C711E3CE03600AF1D0D;
+					};
+				};
+			};
+			buildConfigurationList = 96817C6D1E3CE03600AF1D0D /* Build configuration list for PBXProject "PokerKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96817C691E3CE03600AF1D0D;
+			productRefGroup = 96817C731E3CE03600AF1D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96817C711E3CE03600AF1D0D /* PokerKata */,
+				96817C851E3CE03600AF1D0D /* PokerKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96817C701E3CE03600AF1D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96817C801E3CE03600AF1D0D /* LaunchScreen.storyboard in Resources */,
+				96817C7D1E3CE03600AF1D0D /* Assets.xcassets in Resources */,
+				96817C7B1E3CE03600AF1D0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96817C841E3CE03600AF1D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96817C6E1E3CE03600AF1D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96817C781E3CE03600AF1D0D /* ViewController.swift in Sources */,
+				96817C761E3CE03600AF1D0D /* AppDelegate.swift in Sources */,
+				96817C981E3CE29F00AF1D0D /* HandRank.swift in Sources */,
+				96817CA01E3E767E00AF1D0D /* CardRank.swift in Sources */,
+				96817CAA1E47E63A00AF1D0D /* Hand.swift in Sources */,
+				96817CA41E3E95FE00AF1D0D /* CardSuit.swift in Sources */,
+				96817C9A1E3D5B4F00AF1D0D /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96817C821E3CE03600AF1D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96817CA81E47E59700AF1D0D /* HandTests.swift in Sources */,
+				96817C9C1E3D5B6400AF1D0D /* CardTests.swift in Sources */,
+				96817C961E3CE0C200AF1D0D /* HandRankTests.swift in Sources */,
+				96817C8B1E3CE03600AF1D0D /* PokerKataTests.swift in Sources */,
+				96817CA61E3E972600AF1D0D /* CardSuitTests.swift in Sources */,
+				96817CA21E3E76A500AF1D0D /* CardRankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96817C881E3CE03600AF1D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96817C711E3CE03600AF1D0D /* PokerKata */;
+			targetProxy = 96817C871E3CE03600AF1D0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96817C791E3CE03600AF1D0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96817C7A1E3CE03600AF1D0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96817C7E1E3CE03600AF1D0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96817C7F1E3CE03600AF1D0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96817C8D1E3CE03600AF1D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96817C8E1E3CE03600AF1D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96817C901E3CE03600AF1D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LNFYLXQTCT;
+				INFOPLIST_FILE = PokerKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mooredom.PokerKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		96817C911E3CE03600AF1D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LNFYLXQTCT;
+				INFOPLIST_FILE = PokerKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mooredom.PokerKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		96817C931E3CE03600AF1D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LNFYLXQTCT;
+				INFOPLIST_FILE = PokerKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mooredom.PokerKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerKata.app/PokerKata";
+			};
+			name = Debug;
+		};
+		96817C941E3CE03600AF1D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LNFYLXQTCT;
+				INFOPLIST_FILE = PokerKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mooredom.PokerKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerKata.app/PokerKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96817C6D1E3CE03600AF1D0D /* Build configuration list for PBXProject "PokerKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96817C8D1E3CE03600AF1D0D /* Debug */,
+				96817C8E1E3CE03600AF1D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96817C8F1E3CE03600AF1D0D /* Build configuration list for PBXNativeTarget "PokerKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96817C901E3CE03600AF1D0D /* Debug */,
+				96817C911E3CE03600AF1D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96817C921E3CE03600AF1D0D /* Build configuration list for PBXNativeTarget "PokerKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96817C931E3CE03600AF1D0D /* Debug */,
+				96817C941E3CE03600AF1D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96817C6A1E3CE03600AF1D0D /* Project object */;
+}
