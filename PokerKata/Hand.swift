@@ -38,6 +38,17 @@ struct Hand {
   }
   
   func bestHandRank() -> HandRank {
+    // Check for straight
+    let sortedCards = self.cards.sorted()
+    let lowestRank = sortedCards[0].rank.rawValue
+    let expectedHighestRank = lowestRank + 4
+    
+    if let lastCardRank = sortedCards.last?.rank {
+      if lastCardRank.rawValue == expectedHighestRank {
+        return .straight
+      }
+    }
+    
     var rankCounts = [CardRank:Int]()
     
     for card in self.cards {

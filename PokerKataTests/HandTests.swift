@@ -43,13 +43,20 @@ class HandTests: XCTestCase {
   }
   
   func testBestHand() {
-    let pairHand = "AS AC 2H 3S JD"
+    let highCardHand = "10C 9S 3C 2D 6S"
+    XCTAssertTrue(Hand(with: highCardHand)!.bestHandRank() == .highCard, "Expected best hand to be high card")
     
+    let pairHand = "AS AC 2H 3S JD"
     XCTAssertTrue(Hand(with: pairHand)!.bestHandRank() == .pair, "Expected best hand to be a pair")
     
     let threeOfAKindHand = "QH JS JD 9C JH"
-    
     XCTAssertTrue(Hand(with: threeOfAKindHand)!.bestHandRank() == .threeOfAKind, "Expected best hand to be a three of a kind")
+    
+    let fourOfAKindHand = "8S JC 8C 8D 8H"
+    XCTAssertTrue(Hand(with: fourOfAKindHand)!.bestHandRank() == .fourOfAKind, "Expected best hand to be a four of a kind")
+    
+    let straightHand = "7H 8S 9C 10S JC"
+    XCTAssertTrue(Hand(with: straightHand)!.bestHandRank() == .straight, "Expected best hand to be a straight")
     
   }
 
