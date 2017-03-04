@@ -38,6 +38,22 @@ struct Hand {
   }
   
   func bestHandRank() -> HandRank {
+    // Check for flush
+    var suitCounts = [CardSuit : Int]()
+    for card in self.cards {
+      if let currentSuitCount = suitCounts[card.suit] {
+        suitCounts[card.suit] = currentSuitCount + 1
+      } else {
+        suitCounts[card.suit] = 1
+      }
+    }
+    
+    for (_, count) in suitCounts {
+      if count == 5 {
+        return .flush
+      }
+    }
+    
     // Check for straight
     let sortedCards = self.cards.sorted()
     let lowestRank = sortedCards[0].rank.rawValue
@@ -49,6 +65,7 @@ struct Hand {
       }
     }
     
+    // Check for single-rank hands (i.e., high card, pair, three of a kind, four of a kind)
     var rankCounts = [CardRank:Int]()
     
     for card in self.cards {

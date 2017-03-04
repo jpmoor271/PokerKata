@@ -58,6 +58,8 @@ class HandTests: XCTestCase {
     let straightHand = "7H 8S 9C 10S JC"
     XCTAssertTrue(Hand(with: straightHand)!.bestHandRank() == .straight, "Expected best hand to be a straight")
     
+    let flushHand = "8C 3C 10C AC JC";
+    XCTAssertTrue(Hand(with: flushHand)!.bestHandRank() == .flush, "Expected best hand to be a flush")
   }
 
 }
